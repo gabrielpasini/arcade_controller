@@ -25,8 +25,8 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_GAMEPAD,
 
 #define tempoDebounce 0 /** 0 = ZERO DELAY */
 
-bool estadoAnt[10];
-unsigned long debounce[10];
+bool estadoAnt[13];
+unsigned long debounce[13];
 
 void setup() {
   pinMode(BUTTON_0, INPUT_PULLUP);
